@@ -1,0 +1,89 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.4.5 (Oracle Corporation Java 11.0.9)
+[debug]       Load.loadUnit: plugins took 109.253976ms
+[debug]       Load.loadUnit: defsScala took 0.422216ms
+[debug] [Loading] Scanning directory /home/chempa/.sbt/1.0/plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /home/chempa/.sbt/1.0/plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 27.923345 ms
+[debug]           Load.resolveProject(global-plugins) took 62.92587ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: /home/chempa/.sbt/1.0/plugins, plugins: List(<none>))) took 127.979502ms
+[debug] [Loading] Done in /home/chempa/.sbt/1.0/plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 156.071378ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.343616ms
+[debug]     Load.loadUnit(file:/home/chempa/.sbt/1.0/plugins/, ...) took 277.513535ms
+[debug]   Load.apply: load took 475.544096ms
+[debug]   Load.apply: resolveProjects took 6.183667ms
+[debug]   Load.apply: finalTransforms took 76.797411ms
+[debug]   Load.apply: config.delegates took 7.74707ms
+[debug]   Load.apply: Def.make(settings)... took 604.149889ms
+[debug]   Load.apply: structureIndex took 126.763209ms
+[debug]   Load.apply: mkStreams took 2.023144ms
+[info] loading global plugins from /home/chempa/.sbt/1.0/plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 43901.051187ms
+[debug]           Load.loadUnit: plugins took 14.165542ms
+[debug]           Load.loadUnit: defsScala took 0.002552ms
+[debug] [Loading] Scanning directory /home/chempa/Desktop/github/topgunscala/project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /home/chempa/Desktop/github/topgunscala/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.975326 ms
+[debug]               Load.resolveProject(topgunscala-build) took 1.014532ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id topgunscala-build, base: /home/chempa/Desktop/github/topgunscala/project, plugins: List(<none>))) took 3.615482ms
+[debug] [Loading] Done in /home/chempa/Desktop/github/topgunscala/project, returning: (topgunscala-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 5.344726ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.010106ms
+[debug]         Load.loadUnit(file:/home/chempa/Desktop/github/topgunscala/project/, ...) took 20.097112ms
+[debug]       Load.apply: load took 21.223786ms
+[debug]       Load.apply: resolveProjects took 0.113939ms
+[debug]       Load.apply: finalTransforms took 24.05978ms
+[debug]       Load.apply: config.delegates took 0.507451ms
+[debug]       Load.apply: Def.make(settings)... took 93.491245ms
+[debug]       Load.apply: structureIndex took 59.637268ms
+[debug]       Load.apply: mkStreams took 0.003144ms
+[info] loading project definition from /home/chempa/Desktop/github/topgunscala/project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 485.127842ms
+[debug]     Load.loadUnit: defsScala took 0.003594ms
+[debug] [Loading] Scanning directory /home/chempa/Desktop/github/topgunscala
+[debug]       Load.loadUnit: mkEval took 8.194236ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /home/chempa/Desktop/github/topgunscala, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 4.885888 ms
+[info] loading settings for project topgunscala from build.sbt ...
+[debug]         Load.resolveProject(topgunscala) took 3.283523ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id topgunscala, base: /home/chempa/Desktop/github/topgunscala, plugins: List(<none>))) took 9.324491ms
+[debug] [Loading] Done in /home/chempa/Desktop/github/topgunscala, returning: (topgunscala)
+[debug]     Load.loadUnit: loadedProjectsRaw took 4466.474608ms
+[debug]     Load.loadUnit: cleanEvalClasses took 6.804463ms
+[debug]   Load.loadUnit(file:/home/chempa/Desktop/github/topgunscala/, ...) took 4959.130396ms
+[debug] Load.apply: load took 4961.769575ms
+[debug] Load.apply: resolveProjects took 0.125506ms
+[debug] Load.apply: finalTransforms took 16.054091ms
+[debug] Load.apply: config.delegates took 0.72132ms
+[debug] Load.apply: Def.make(settings)... took 105.332146ms
+[debug] Load.apply: structureIndex took 47.562561ms
+[debug] Load.apply: mkStreams took 0.003142ms
+[info] set current project to topgunscala (in build file:/home/chempa/Desktop/github/topgunscala/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(shell, None, None)
+[info] sbt server started at local:///home/chempa/.sbt/1.0/server/cfb1b5f3f8298933a432/sock
+[info] started sbt server
